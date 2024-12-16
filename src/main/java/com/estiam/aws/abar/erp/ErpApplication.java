@@ -1,4 +1,4 @@
-package edu.estiam.gto.erp;
+package com.estiam.aws.abar.erp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

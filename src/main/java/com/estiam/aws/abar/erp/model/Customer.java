@@ -1,8 +1,8 @@
-package edu.estiam.gto.erp.model;
+package com.estiam.aws.abar.erp.model;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import edu.estiam.gto.erp.view.CustomerView;
-import edu.estiam.gto.erp.view.OrderView;
+import com.estiam.aws.abar.erp.view.CustomerView;
+import com.estiam.aws.abar.erp.view.OrderView;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

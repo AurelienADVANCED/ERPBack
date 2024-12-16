@@ -1,6 +1,6 @@
-package edu.estiam.gto.erp.repository;
+package com.estiam.aws.abar.erp.repository;
 
-import edu.estiam.gto.erp.model.Order;
+import com.estiam.aws.abar.erp.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

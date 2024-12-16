@@ -1,9 +1,9 @@
-package edu.estiam.gto.erp.controller;
+package com.estiam.aws.abar.erp.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import edu.estiam.gto.erp.model.Order;
-import edu.estiam.gto.erp.repository.OrderRepository;
-import edu.estiam.gto.erp.view.OrderView;
+import com.estiam.aws.abar.erp.model.Order;
+import com.estiam.aws.abar.erp.repository.OrderRepository;
+import com.estiam.aws.abar.erp.view.OrderView;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
