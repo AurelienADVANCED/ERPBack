@@ -8,11 +8,11 @@
 		<version>3.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>edu.estiam.gto</groupId>
+	<groupId>edu.estiam.aws.abar</groupId>
 	<artifactId>erp</artifactId>
 	<version>0.0.1</version>
 	<name>erp</name>
-	<description>ERP du groupe Gauthier - Théo</description>
+	<description>ERP du groupe Aurelien - Aurian</description>
 	<packaging>war</packaging>
 	<url/>
 	<licenses>
@@ -69,47 +69,6 @@
 		</dependency>
 	</dependencies>
 
-	<profiles>
-		<profile>
-			<id>dev</id>
-			<properties>
-				<host>localhost</host>
-				<port>6033</port>
-				<db>erp-dev</db>
-				<db-user>root</db-user>
-				<db-password>root</db-password>
-				<skipUnitTests>false</skipUnitTests>
-			</properties>
-		</profile>
-
-		<profile>
-			<id>staging</id>
-			<properties>
-				<host>localhost</host>
-				<port>3306</port>
-				<db>erp-staging</db>
-				<db-user>root</db-user>
-				<db-password>root</db-password>
-				<skipUnitTests>false</skipUnitTests>
-			</properties>
-		</profile>
-
-		<profile>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<id>prod</id>
-			<properties>
-				<host>db</host>
-				<port>3306</port>
-				<db>erp</db>
-				<db-user>erp_user</db-user>
-				<db-password>erp_pass</db-password>
-				<skipUnitTests>true</skipUnitTests>
-			</properties>
-		</profile>
-	</profiles>
-
 	<build>
 		<resources>
 			<resource>
@@ -156,5 +115,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
